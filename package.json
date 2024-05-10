@@ -15,5 +15,9 @@
     "eslint-config-upleveled": "^8.1.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "kuler": "^2.0.0",
+    "randomcolor": "^0.6.2"
   }
 }
