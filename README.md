@@ -22,7 +22,7 @@ node index.js
 if given a hue (e.g. blue) and a luminosity (e.g. dark) then the block generated will be a random color associated with those arguments. The hex code in the block will still be the hex code of the displayed color.
 
 ```
-node index.js dark blue
+node index.js blue dark
 ###############################
 ###############################
 ###############################
