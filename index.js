@@ -10,12 +10,16 @@ const color = randomColor({
   hue: hue,
 });
 
-console.log(kuler('###############################', color));
-console.log(kuler('###############################', color));
-console.log(kuler('###############################', color));
-console.log(kuler('#####                     #####', color));
-console.log(kuler(`#####       ${color}       #####`, color));
-console.log(kuler('#####                     #####', color));
-console.log(kuler('###############################', color));
-console.log(kuler('###############################', color));
-console.log(kuler('###############################', color));
+const longLine = kuler('###############################', color);
+const splitLine = kuler('#####                     #####', color);
+const codeLine = kuler(`#####       ${color}       #####`, color);
+
+console.log(longLine);
+console.log(longLine);
+console.log(longLine);
+console.log(splitLine);
+console.log(codeLine);
+console.log(splitLine);
+console.log(longLine);
+console.log(longLine);
+console.log(longLine);
