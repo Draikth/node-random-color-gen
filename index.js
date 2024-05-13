@@ -3,7 +3,7 @@ import { argv } from 'node:process';
 import kuler from 'kuler';
 import randomColor from 'randomcolor';
 
-// set argument index values (e.g. blue light, red dark)
+// set argument index values (e.g. blue light, red dark, etc...)
 const hue = argv[2];
 const lumos = argv[3];
 
